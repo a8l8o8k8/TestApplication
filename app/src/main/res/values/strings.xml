@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+
+    <string name="off_titile">Service is disabled</string>
+    <string name="on_titile">Service is enabled</string>
+    <string name="on_subtitile">Turn On switch to Enable the Service</string>
+    <string name="off_subtitile">Turn Off switch to disable the Service</string>
+    <string name="toolbar_text">Transaction Analysts</string>
+</resources>

@@ -11,7 +11,7 @@ import com.example.testapplication.model.SwitchModel
 
 class MainActivity : AppCompatActivity() {
     lateinit var mBinding: ActivityMainBinding
-    var list = mutableListOf<SwitchModel?>()
+
     val viewModel: MainViewModel by lazy {
         ViewModelProvider(this).get(MainViewModel::class.java)
     }

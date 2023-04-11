@@ -15,7 +15,7 @@ import com.example.testapplication.model.SwitchModel
 class SwitchAdapter(val context:Context,var list:MutableList<SwitchModel>): RecyclerView.Adapter<SwitchAdapter.SwitchViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SwitchViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        // val binding = SwitchAdapterBinding.inflate(layoutInflater, parent, false)
+
         val binding = SwitchAdapterBinding.inflate(layoutInflater, parent, false)
 
 
